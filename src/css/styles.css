@@ -12,9 +12,50 @@ body {
   line-height: 1.5;
 }
 
+li {
+  list-style: none;
+}
+ul {
+  padding-left: 0px;
+}
+
 #search-box {
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+.countries-list-item {
+  display: flex;
+  align-items: center;
+}
+
+.country-name-list {
+  margin-left: 10px;
+  font-size: 16;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.country-container {
+  display: flex;
+  align-items: center;
+}
+
+.card-title {
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.list-item-card {
+  font-size: 16;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.key-list-item {
+  font-weight: 700;
+  margin-right: 5px;
 }
